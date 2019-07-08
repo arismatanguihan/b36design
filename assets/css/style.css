@@ -1,0 +1,603 @@
+/*@font-face {
+	font-family: "hinde";
+	src: url(../fonts/Black_Finger_Demo.ttf);
+}*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+#gototop {
+	display: none;
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	border: none;
+	outline: none;
+	z-index: 99;
+	background-color: #fff;
+	height: 8%;
+	width: 4%;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid #333;
+}
+
+#gototop:hover {
+	background-color: gray;
+}
+
+
+
+
+/*landing page css*/
+
+
+#landing-text {
+	background-color: rgba(102,102,102, 0.5);
+}
+
+#landingbg {
+  	position: absolute;
+ 	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+ 	min-height: 100%;
+}
+
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 10%;
+	background-color: #fff;
+	border-radius: 0; 
+	background-image: url(../images/landingbg2.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#container{
+	padding-top: 15em;
+}
+
+
+.jumbotron h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff; /*off white*/
+	font-size: 70px;
+}
+
+.jumbotron p {
+	color: #fff;
+}
+
+.jumbotron hr {
+	background-color: #fff;
+}
+
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*end landing page css*/
+
+
+
+
+
+
+
+
+/*home page css*/
+
+
+
+#navbar {
+	border-bottom: solid 1px black;
+	background-color: #fff;
+	height: 10vh;
+}
+
+#navbar-nav {
+	background-color: #fff;
+	text-align: center;
+	border: 1px;
+}
+
+ul > li {
+	border: solid 1px white;
+	text-decoration: none;
+}
+
+
+
+.navmenu:hover {
+	border: solid 1px black;
+	border-radius: 5px;
+}
+
+
+.carousel-img {
+	height: 45em;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
+.headertxt {
+	margin-bottom: 5%;
+	margin-right: 50%;
+}
+
+#headerlogo {
+	width: 8em;
+}
+
+#home-top {
+	height: 100%;
+	background-image: url(../images/web_img/hometopbg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+#home-content {
+	height: 100%;
+	background-image: url(../images/web_img/ff1logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#home-content2 {
+	height: 100%;
+	background-image: url(../images/web_img/ff2logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#home-content3 {
+	height: 100%;
+	background-image: url(../images/web_img/ff3logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+
+#home-content4 {
+	height: 100%;
+	background-image: url(../images/web_img/ff4logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content5 {
+	height: 100%;
+	background-image: url(../images/web_img/ff5logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content6 {
+	height: 100%;
+	background-image: url(../images/web_img/ff6logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content7 {
+	height: 100%;
+	background-image: url(../images/web_img/ff7logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#home-content8 {
+	height: 100%;
+	background-image: url(../images/web_img/ff8logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#home-content9 {
+	height: 100%;
+	background-image: url(../images/web_img/ff9logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#home-content10 {
+	height: 100%;
+	background-image: url(../images/web_img/ff10logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content11 {
+	height: 100%;
+	background-image: url(../images/web_img/ff11logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content12 {
+	height: 100%;
+	background-image: url(../images/web_img/ff12logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content13 {
+	height: 100%;
+	background-image: url(../images/web_img/ff13logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content14 {
+	height: 100%;
+	background-image: url(../images/web_img/ff14logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+#home-content15 {
+	height: 100%;
+	background-image: url(../images/web_img/ff15logo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
+.char-img {
+	/*height: 800px;*/
+	width: 35em;
+}
+
+.text-desc {
+	padding: 4em;
+	background-color: rgba(102,102,102, 0.7);
+	color: #fff;
+}
+
+.text-desc > h2 {
+	margin-bottom: 2em;
+}
+
+
+
+
+/*#home-landing {
+	background-color: #333;
+	color: #fff;
+	padding: 20%;
+}*/
+
+/*.kolumn {
+	background-color: red;
+}*/
+
+/*#navmenu {
+	height: 13%;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid black;
+}
+
+*/
+
+/*end home page css*/
+
+
+
+
+
+/*gallery css*/
+
+
+/*.doge {
+	margin-left: 5em;
+}*/
+
+.doge-header {
+	margin-left: 45%;
+}
+
+.list-gallery {
+	padding: 5%;
+}
+
+
+.row-gallery {
+	margin-bottom: 5%;
+}
+
+/*end gallery css*/
+
+
+
+
+
+
+
+
+
+
+/*about page*/
+#jumbotron-about {
+	background-color: #333;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: hinde, sans-serif;
+}
+
+#about {
+	height: 100%;
+	background-color: #333; /*off-black*/
+	color: #fff; /*off-white*/
+	padding: 5%;
+}
+
+#history {
+	height: 100%
+	background-color: red;
+	color: #333;
+	padding: 5%;
+}
+
+#design {
+	background-color: #333;
+	color: #fff;
+	padding: 5%;
+}
+
+
+.about-tags {
+	font-weight: bold;
+	font-family: hinde, sans-serif;
+}
+
+.imagehistory {
+	height: 13em;
+	width: 13em;
+	padding: 1%;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#history-img {
+	border: 0;
+}
+
+
+#imagehistory2 {
+	height: 12em;
+	width: 15em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#history-img2 {
+	border: 0;
+	background-color: #333;
+}
+
+#design-img {
+	background-color: #333;
+	color: #fff;
+	border: 0;
+}
+
+#design-img2 {
+	background-color: #333;
+	color: #fff;
+	border: 0;
+}
+
+
+/*end about*/
+
+/*contact css*/
+
+#gmap {
+	height: 60vh;
+	width: 100%;
+	border: none;
+	display: block;
+	border-radius: 10px;
+}
+
+#contact-header {
+	margin-top: 2em;
+}
+
+#contact-form {
+	padding: 5em;
+}
+
+/*end contact css*/
+
+/*footer css*/
+.footer-page {
+	border-top: solid 1px black;
+	padding: 2em;
+}
+
+.footer-text{
+	margin-bottom: 1em;
+	margin-top: 0;
+	padding-bottom: 1em;
+
+}
+
+
+.footer-img {
+	width: 10em;
+
+}
+
+
+.footer-icon {
+	height: 2em;
+	width: 2em;
+}
+
+.social-icon {
+	height: 3em;
+	width: 2em;
+}
+
+.social-media {
+	text-align: center;
+}
+
+
+/*end footer css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+#container {
+	padding-top: 2em;
+}
+
+.char-img {
+	width: 20em;
+}
+	
+.container{
+	height: 100%;
+}
+/*	h1 {
+		font-size: 50px;
+		color: blue;
+		background-color: green;
+	}*/
+}
+
+.imagehistory2 {
+	width: 10em
+}
+
+#gototop {
+	width: 3em;
+}
+
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+#container {
+	padding-top: 3em;
+}
+
+.char-img {
+	width: 25em;
+}
+
+}
+
+
+.imagehistory {
+	width: 10em;
+}
+
+#imagehistory2 {
+	width: 12em
+}
+
+
+#gototop {
+	width: 5em;
+}
+
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 961px) {
+
+	
+
+}
